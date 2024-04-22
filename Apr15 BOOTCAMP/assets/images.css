@@ -1,0 +1,10 @@
+body{
+  background: grey url('../images/rabbit.jfif') no-repeat fixed;
+  background-size: contain;
+}
+body{
+  background-image: url('../images/rabbit3.jpeg');
+  /* background-repeat: no-repeat ; */
+  /* background-size: 200px 200px; */
+  background-position: center;
+}

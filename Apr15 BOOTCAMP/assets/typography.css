@@ -1,0 +1,62 @@
+
+.font-style{
+  font-style:oblique;
+}
+/* text transform */
+.uppercase{
+  color: pink;
+  font-family: Ariel sans-serif;
+  text-transform: uppercase;
+}
+.lowercase{
+  color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: lowercase;
+}
+.capitalize{
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+.overline{
+  color: yellow;
+  background-color: blue;
+  text-decoration: overline;
+}
+.line-through{
+  color: red;
+  text-decoration: line-through;
+}
+.underline{
+  color: green;
+  text-decoration: underline dotted;
+}
+.left{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+}
+.right{
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: tomato;
+}
+.center{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  word-spacing: 15px;
+}
+.title{
+  color: blue;
+  letter-spacing: 20px;
+  text-shadow: 2px 2px 3px yellow;
+}
+.px{
+  text-indent: 50px;
+  letter-spacing: 10px;
+}
+.percent{
+  text-indent: 5%;
+}
+.em{
+  text-indent: 5em;
+}

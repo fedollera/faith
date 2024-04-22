@@ -1,0 +1,17 @@
+table{
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+th{
+  height: 80px;
+  color: white;
+  background-color: #fc8a8a;
+}
+tr.odd{
+  background-color: #ffd4b3;
+}
+tr.even{
+  background-color: white;
+}

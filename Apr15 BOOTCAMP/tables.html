@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tables</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    thead,tr,th, td{
+      border: 1px solid black;
+    }
+    td{
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML TABLES</h1>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th colspan="2">Address</th>
+    </tr>
+    <tr>
+      <td>Ken</td>
+      <td>15</td>
+      <td>Tokyo, Japan</td>
+      <td>Osaka, Japan</td>
+    </tr>
+    <tr>
+      <td>Mary</td>
+      <td>25</td>
+      <td colspan="2">Manila, Philippines</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+  </table>
+<br>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone No.</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Faith</td>
+        <td>+9561546</td>
+        <td rowspan="2">Philippines</td>
+      </tr>
+      <tr>
+        <td>+25444655</td>
+      </tr>
+      <tr>
+     
+        <td>Zab</td>
+        <td>+95265646</td>
+        <td>Japan</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
